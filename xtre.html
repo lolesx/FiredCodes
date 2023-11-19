@@ -6,33 +6,20 @@
     <title>FireWare</title>
 </head>
 <body>
-    <script type="text/python">
-        print('Hello From FireWare') 
-        number=("what is ur number")
-        print(f'ur number is {number}')
-
-    </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FireWare</title>
-</head>
-<body>
-    <script type="text/python">
+    <script>
         var userAgent = navigator.userAgent;
 
+        // Vérifier si l'User-Agent correspond à celui du logiciel
         if (userAgent.includes("FiredInterpreter")) {
-          print('Hello From FireWare') 
-          number=("what is ur number")
-          print(f'ur number is {number}')
-
+            // Code Python à exécuter
+            <script type="text/python">
+                print('Hello From FireWare') 
+                number=("what is ur number")
+                print(f'ur number is {number}')
+        
+            </script>
         } else {
-            // Rediriger vers la page spécifiée
+            // Rediriger vers le lien spécifié
             window.location.replace("https://lolesx.github.io/fired/");
         }
     </script>
